@@ -13,7 +13,7 @@ class CalcSimpleTest {
 
     private CalcSimple createCalculator() {
         // TODO: Importez votre class qui implémente CalcSimple et returnez la ici
-        throw new UnsupportedOperationException("Students must implement createCalculator() method");
+        return new CalcSimpleImpl();
     }
 
     @Test
